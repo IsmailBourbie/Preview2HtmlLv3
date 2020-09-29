@@ -1,3 +1,4 @@
+$mainColor: #f7600e;
 /* Start Our Framework */
 * {
   -webkit-box-sizing: border-box;
@@ -33,11 +34,11 @@ body {
 }
 
 .main-color {
-  color: #f7600e;
+  color: $mainColor;
 }
 
 .main-background {
-  background-color: #f7600e;
+  background-color: $mainColor;
 }
 
 .overlay {
@@ -63,7 +64,9 @@ body {
 }
 
 /* End Our Framework */
+
 /* Start Header */
+
 .header {
   background: url("../images/header_stock.png");
   -webkit-background-size: cover;
@@ -121,8 +124,8 @@ body {
 }
 
 .header .buttons button:hover {
-  background-color: #f7600e;
-  border: 1px solid #f7600e;
+  background-color: $mainColor;
+  border: 1px solid $mainColor;
   color: #fff;
 }
 
@@ -145,7 +148,9 @@ body {
 }
 
 /* End Header */
+
 /* Start Features */
+
 .features {
   padding: 80px 0;
   overflow: hidden;
@@ -162,7 +167,7 @@ body {
 }
 
 .features .box i {
-  color: #f7600e;
+  color: $mainColor;
   border: 1px solid #ccc;
   width: 120px;
   height: 120px;
@@ -174,8 +179,8 @@ body {
 }
 
 .features .box i:hover {
-  background-color: #f7600e;
-  border: 1px solid #f7600e;
+  background-color: $mainColor;
+  border: 1px solid $mainColor;
   color: #fff;
 }
 
@@ -191,7 +196,9 @@ body {
 }
 
 /* End Features */
+
 /* Start Subscribe */
+
 .subscribe {
   background: url("../images/subscribe.png");
   -webkit-background-size: cover;
@@ -207,7 +214,7 @@ body {
   text-align: center;
 }
 
-.subscribe form input[type=email] {
+.subscribe form input[type="email"] {
   padding: 0 10px;
   width: 320px;
   font-size: 20px;
@@ -223,7 +230,7 @@ body {
   padding: 10px;
   width: 200px;
   border: 1px s;
-  background-color: #f7600e;
+  background-color: $mainColor;
   border: none;
   color: #fff;
   border-radius: 10px;
@@ -232,7 +239,9 @@ body {
 }
 
 /* End Subscribe */
+
 /* Start Our Work */
+
 .our-work {
   padding: 50px 0;
 }
@@ -262,8 +271,8 @@ body {
 }
 
 .our-work .show-more:hover {
-  background-color: #f7600e;
-  border: 1px solid #f7600e;
+  background-color: $mainColor;
+  border: 1px solid $mainColor;
   color: #fff;
 }
 
@@ -326,11 +335,13 @@ body {
 .our-work .item .over button:hover {
   background-color: #fff;
   border: 1px solid #fff;
-  color: #f7600e;
+  color: $mainColor;
 }
 
 /* End Our Work */
+
 /* Start Testimonials */
+
 .testim {
   background: url("../images/testimonials.png");
   -webkit-background-size: cover;
@@ -368,7 +379,7 @@ body {
 
 .testim .fa-chevron-right:hover,
 .testim .fa-chevron-left:hover {
-  color: #f7600e;
+  color: $mainColor;
 }
 
 .testim .fa-chevron-right {
@@ -380,7 +391,9 @@ body {
 }
 
 /* End Testimonials */
+
 /* Start Our Team */
+
 .our-team {
   padding: 50px 0;
 }
@@ -451,7 +464,9 @@ body {
 }
 
 /* End Our Team */
+
 /* Start Contact Form */
+
 .contact {
   background: url("../images/city.png");
   -webkit-background-size: cover;
@@ -476,8 +491,8 @@ body {
   overflow: hidden;
 }
 
-.contact form input[type=text],
-.contact form input[type=email] {
+.contact form input[type="text"],
+.contact form input[type="email"] {
   width: 48%;
   padding: 0 10px;
   height: 40px;
@@ -486,11 +501,11 @@ body {
   border: 1px solid #ccc;
 }
 
-.contact form input[type=text] {
+.contact form input[type="text"] {
   float: left;
 }
 
-.contact form input[type=email] {
+.contact form input[type="email"] {
   float: right;
 }
 
@@ -513,7 +528,7 @@ body {
   padding: 10px;
   width: 200px;
   border: 1px s;
-  background-color: #f7600e;
+  background-color: $mainColor;
   border: none;
   color: #fff;
   border-radius: 10px;
@@ -546,7 +561,9 @@ body {
 }
 
 /* End Contact Form */
+
 /* Start Footer */
+
 .footer {
   background-color: #3b434c;
   color: #fff;
@@ -563,5 +580,3 @@ body {
 }
 
 /* End Footer */
-
-/*# sourceMappingURL=style.css.map */

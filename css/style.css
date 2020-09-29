@@ -72,7 +72,6 @@ body {
   background-size: cover;
   color: #fff;
 }
-
 .header .navbar {
   overflow: hidden;
   padding: 20px 0;
@@ -81,32 +80,26 @@ body {
   left: 0;
   width: 100%;
 }
-
 .header .navbar .logo {
   font-size: 24px;
 }
-
 .header .navbar .links {
   float: right;
 }
-
 .header .navbar .links i {
   margin-left: 5px;
 }
-
 .header .intro h1 {
   margin: 0;
   font-size: 50px;
   font-weight: 800;
 }
-
 .header .intro p {
   margin: 5px 0 40px;
   line-height: 1.9;
   font-size: 20px;
   color: #e2e2e2;
 }
-
 .header .buttons button {
   background: transparent;
   padding: 10px 0;
@@ -119,11 +112,18 @@ body {
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .header .buttons button:hover {
   background-color: #f7600e;
   border: 1px solid #f7600e;
   color: #fff;
+}
+.header .arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
 }
 
 .header .arrow {
@@ -134,7 +134,6 @@ body {
   text-align: center;
   padding: 40px 0;
 }
-
 .header .arrow i {
   border: 2px solid #7b7b7b;
   border-radius: 50%;

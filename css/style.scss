@@ -70,7 +70,7 @@ body {
 
 .header {
   background: url("../images/header_stock.png");
-  @extend .cover;
+  @extend %cover;
   color: #fff;
   .navbar {
     overflow: hidden;
@@ -202,7 +202,7 @@ body {
 
 .subscribe {
   background: url("../images/subscribe.png");
-  @extend .cover;
+  @extend %cover;
 }
 
 .subscribe form {
@@ -342,7 +342,7 @@ body {
 
 .testim {
   background: url("../images/testimonials.png");
-  @extend .cover;
+  @extend %cover;
 }
 
 .testim .container {
@@ -464,7 +464,7 @@ body {
 
 .contact {
   background: url("../images/city.png");
-  @extend .cover;
+  @extend %cover;
 }
 
 .contact .overlay {
@@ -574,7 +574,7 @@ body {
 /* End Footer */
 /* for extend */
 
-.cover {
+%cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -547,7 +547,7 @@ body {
 
 /* End Footer */
 /* for extend */
-.cover, .header, .subscribe, .testim, .contact {
+.header, .subscribe, .testim, .contact {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

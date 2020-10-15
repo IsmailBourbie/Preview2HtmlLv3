@@ -1,14 +1,13 @@
 $mainColor: #f7600e;
 $mainFontSize: 16px;
+
+@import "body.scss";
+
 /* Start Our Framework */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
 }
 
 .container {

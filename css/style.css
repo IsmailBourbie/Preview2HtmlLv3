@@ -1,12 +1,12 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* Start Our Framework */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
 }
 
 .container {

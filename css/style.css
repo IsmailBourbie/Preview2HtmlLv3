@@ -148,7 +148,7 @@ body {
 
 .features .box {
   width: 22%;
-  float: left;
+  float: right;
   margin-right: 4%;
 }
 
@@ -263,7 +263,7 @@ body {
 }
 
 .our-work .items-box .item {
-  float: left;
+  float: right;
   width: 30%;
   height: 403px;
   overflow: hidden;
@@ -389,7 +389,7 @@ body {
 }
 
 .our-team .the-team .person {
-  float: left;
+  float: right;
   width: 24%;
   margin-left: 1%;
   color: #888;
@@ -470,11 +470,11 @@ body {
 }
 
 .contact form input[type=text] {
-  float: left;
+  float: right;
 }
 
 .contact form input[type=email] {
-  float: right;
+  float: left;
 }
 
 .contact form textarea {
@@ -492,7 +492,7 @@ body {
 }
 
 .contact form .info button {
-  float: left;
+  float: right;
   padding: 10px;
   width: 200px;
   border: 1px s;
@@ -504,7 +504,7 @@ body {
 }
 
 .contact form .info .form-icons {
-  float: right;
+  float: left;
 }
 
 .contact form .info .form-icons i {
@@ -538,11 +538,11 @@ body {
 }
 
 .footer .copyright {
-  float: left;
+  float: right;
 }
 
 .footer .design {
-  float: right;
+  float: left;
 }
 
 /* End Footer */

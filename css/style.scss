@@ -3,6 +3,10 @@ $mainFontSize: 16px;
 
 @import "body.scss";
 
+@mixin width_height($w, $h) {
+  width: $w;
+  height: $h;
+}
 /* Start Our Framework */
 * {
   -webkit-box-sizing: border-box;
@@ -43,8 +47,7 @@ $mainFontSize: 16px;
 
 .overlay {
   background: rgba(49, 55, 61, 0.9);
-  width: 100%;
-  height: 100%;
+  @include width_height(100%, 100%);
 }
 
 .hidden {
@@ -141,8 +144,7 @@ $mainFontSize: 16px;
   i {
     border: 2px solid #7b7b7b;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    @include width_height(40px, 40px);
     line-height: 32px;
     cursor: pointer;
   }
@@ -169,8 +171,7 @@ $mainFontSize: 16px;
 .features .box i {
   color: $mainColor;
   border: 1px solid #ccc;
-  width: 120px;
-  height: 120px;
+  @include width_height(120px, 120px);
   border-radius: 50%;
   line-height: 120px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -213,13 +214,12 @@ $mainFontSize: 16px;
 
 .subscribe form input[type="email"] {
   padding: 0 10px;
-  width: 320px;
+  @include width_height(320px, 37px);
   font-size: 20px;
   border-radius: 10px;
   position: relative;
   top: 2px;
   border: none;
-  height: 37px;
   line-height: 37px;
 }
 
@@ -279,13 +279,12 @@ $mainFontSize: 16px;
 
 .our-work .items-box .item {
   float: left;
-  width: 30%;
+  @include width_height(30%, 403px);
   overflow: hidden;
   margin-left: 1.33333%;
   margin-bottom: 12px;
   border-radius: 10px;
   position: relative;
-  height: 403px;
 }
 
 .our-work .items-box .item:hover .over {
@@ -296,8 +295,7 @@ $mainFontSize: 16px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  @include width_height(100%, 100%);
   background-color: rgba(247, 96, 14, 0.9);
   color: #fff;
   -webkit-transition: all 0.5s ease-in-out;
@@ -437,8 +435,7 @@ $mainFontSize: 16px;
 }
 
 .our-team .the-team .person img {
-  width: 265px;
-  height: 290px;
+  @include width_height(265px, 290px);
   filter: gray;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -450,8 +447,7 @@ $mainFontSize: 16px;
 
 .our-team .the-team .social-icons i {
   background-color: #9da1a5;
-  width: 30px;
-  height: 30px;
+  @include width_height(30px, 30px);
   line-height: 30px;
   color: #fff;
   border-radius: 50%;
@@ -484,9 +480,8 @@ $mainFontSize: 16px;
 
 .contact form input[type="text"],
 .contact form input[type="email"] {
-  width: 48%;
+  @include width_height(48%, 40px);
   padding: 0 10px;
-  height: 40px;
   line-height: 40px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -502,9 +497,8 @@ $mainFontSize: 16px;
 
 .contact form textarea {
   margin-top: 20px;
-  width: 100%;
+  @include width_height(100%, 140px);
   padding: 10px;
-  height: 140px;
   border-radius: 10px;
   border: 1px solid #ccc;
 }
@@ -532,8 +526,7 @@ $mainFontSize: 16px;
 
 .contact form .info .form-icons i {
   background-color: #9da1a5;
-  width: 40px;
-  height: 40px;
+  @include width_height(40px, 40px);
   line-height: 40px;
   color: #fff;
   border-radius: 50%;

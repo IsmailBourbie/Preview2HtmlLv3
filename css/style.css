@@ -133,8 +133,8 @@ body {
 .header .arrow i {
   border: 2px solid #7b7b7b;
   border-radius: 50%;
-  height: 40px;
   width: 40px;
+  height: 40px;
   line-height: 32px;
   cursor: pointer;
 }
@@ -201,12 +201,12 @@ body {
 .subscribe form input[type=email] {
   padding: 0 10px;
   width: 320px;
+  height: 37px;
   font-size: 20px;
   border-radius: 10px;
   position: relative;
   top: 2px;
   border: none;
-  height: 37px;
   line-height: 37px;
 }
 
@@ -265,12 +265,12 @@ body {
 .our-work .items-box .item {
   float: left;
   width: 30%;
+  height: 403px;
   overflow: hidden;
   margin-left: 1.33333%;
   margin-bottom: 12px;
   border-radius: 10px;
   position: relative;
-  height: 403px;
 }
 
 .our-work .items-box .item:hover .over {
@@ -462,8 +462,8 @@ body {
 .contact form input[type=text],
 .contact form input[type=email] {
   width: 48%;
-  padding: 0 10px;
   height: 40px;
+  padding: 0 10px;
   line-height: 40px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -480,8 +480,8 @@ body {
 .contact form textarea {
   margin-top: 20px;
   width: 100%;
-  padding: 10px;
   height: 140px;
+  padding: 10px;
   border-radius: 10px;
   border: 1px solid #ccc;
 }
